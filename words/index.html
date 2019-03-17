@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ganduras | word definitions</title>
+	</head>
+	<body>
+		<a href="http://www.ganduras.tk">back to home page</a>
+		<h2>Word definitions for everyone</h2>
+		<p><a href="http://www.ganduras.tk/words/words.zip">Here</a> is
+ a compressed directory of 340653 files. Each file is a word and contains corresponding definitions in it.<p>
+		 <h3>use:</h3>
+		 <p>If you have <code>dmenu</code> installed, make a script to open a file from <code>.words</code> directory with preferred pager:<br>
+		<code>#!/bin/sh<br>
+			word=$(echo "" | dmenu -p "what word?")<br>
+			$TERMINAL -e less ~/.words/"$word"<br>
+		</code>
+		<br>
+		save it as <code>%myfile%</code> and run <code>chmod 755 %myfile%</code>
+		</p>
+		
+		
+
+
+	</body>
+</html>
+	
